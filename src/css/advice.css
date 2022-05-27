@@ -47,7 +47,7 @@
 }
 
 .icon-container:hover {
-    box-shadow: 0 0 10px 1px var(--NeonGreen), 0 0 2px 1px  var(--NeonGreen)
+    box-shadow: 0 0 20px 2px var(--NeonGreen)
 }
 
 @media only screen and (max-width: 375px) {
