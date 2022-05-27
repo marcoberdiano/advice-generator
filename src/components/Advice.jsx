@@ -23,11 +23,11 @@ const Advice = () => {
 
     return (
         <main className='main-container'>
-            <section className="advice-container">
+            <div className="advice-container">
                 
                 <p className='advice-id'>Advice #{!isloading && advice.slip.id}</p>
                 
-                <p className='advice-quote'>{!isloading && advice.slip.advice}</p>
+                <q className='advice-quote'><span><em></em></span>{!isloading && advice.slip.advice}</q>
                 
                 <div className='dice-container'>
                     <img className='dice-image' src={patternDivider} alt={patternDivider}></img>
@@ -37,7 +37,7 @@ const Advice = () => {
                     <img src={iconDice} alt={iconDice}></img>
                 </div>
 
-            </section>
+            </div>
         </main>
        
      );
