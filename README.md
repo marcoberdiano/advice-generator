@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/marcoberdiano/advice-generator]
-- Live Site URL: [https://whimsical-pastelito-79a30d.netlify.app/]
+- Live Site URL: [https://incredible-brigadeiros-5ed763.netlify.app/]
 
 ## My process
 
