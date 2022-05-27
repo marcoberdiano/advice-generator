@@ -33,7 +33,7 @@ const Advice = () => {
                     <img className='dice-image' src={patternDivider} alt={patternDivider}></img>
                 </div>
                 
-                <div className='icon-container'> 
+                <div className='icon-container' onClick={getAdvice}> 
                     <img src={iconDice} alt={iconDice}></img>
                 </div>
 
