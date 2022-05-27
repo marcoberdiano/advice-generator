@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Manrope:wght@800&family=Montserrat:wght@100;300;400;500&family=Roboto&display=swap');
+
+:root {
+  --LightCyan: hsl(193, 38%, 86%);
+  --NeonGreen: hsl(150, 100%, 66%);
+  --GrayishBlue: hsl(217, 19%, 38%);
+  --DarkGrayish: hsl(217, 19%, 24%);
+  --DarkBlue: hsl(218, 23%, 16%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', 'Fjalla One', 'Montserrat', 'Roboto', sans-serif;
+  background-color: var(--DarkBlue);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--GrayishBlue);
+}
+

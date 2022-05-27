@@ -1,0 +1,53 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.advice-container {
+    background-color: var(--DarkGrayish);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+}
+
+.advice-id {
+    color: var(--NeonGreen);
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.advice-quote {
+    color: var(--LightCyan);
+    font-size: 28px;
+}
+
+.dice-container {
+    margin: 30px;
+}
+
+.dice-image {
+    width: 100%;
+}
+
+.icon-container {
+    background-color: var(--NeonGreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -30px;
+}
+
+@media only screen and (max-width: 375px) {
+    .advice-container{
+        width: 100%;
+        margin: 0px 20px;
+    }
+}
